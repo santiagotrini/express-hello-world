@@ -256,7 +256,7 @@ Nos aparece un panel de control de la nueva app. En la pestaña de "Deploy", en 
 
 Luego activamos los deploys automáticos desde GitHub y hacemos un deploy manual. Listo, la app está online. Usen el botón de "View" para ver como quedó. O en el navegador ponemos https://express-hello-world-1729.herokuapp.com (reemplazar por el nombre de su app).
 
-![Heroku deploys](heroku-deploys.png)
+![Heroku deploys](img/heroku-deploys.png)
 
 ## Probemos de mostrar algo de HTML desde la app
 
