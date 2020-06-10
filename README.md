@@ -158,23 +158,20 @@ Y nos vamos a http://localhost:3000 en el navegador web. Deberíamos ver el "Hel
 Ya tenemos la app funcionando localmente, podemos seguir desarrollando localmente y agregarle cosas a la app. O podemos subirla a Internet. Vamos por la segunda opción.
 A partir de acá por razones obvias necesitamos Internet.
 
-Primero nos vamos a https://github.com y nos logeamos.
-
-![GitHub login](github-login.png)
-
+Primero nos vamos a https://github.com y nos logeamos. Nos recibe un _dashboard_.
 Creamos un repositorio nuevo.
 
-![GitHub dashboard](github-dashboard.png)
+![GitHub dashboard](img/github-dashboard.png)
 
 Elegimos un nombre y lo demás lo dejamos por defecto.
 
-![Crear repo](github-new-repo.png)
+![Crear repo](img/github-new-repo.png)
 
 El de este ejemplo va a ser `usuario/express-hello-world`. En `usuario` cada uno va a tener su nombre de usuario por supuesto.
 
 Tomamos nota del link del repo que nos muestra la siguiente pantalla, ese es el que vamos a usar en el comando `git remote add origin`.
 
-![Importar repo desde CLI](github-import-repo.png)
+![Importar repo desde CLI](img/github-import-repo.png)
 
 De vuelta en la terminal hacemos lo siguiente en la carpeta del proyecto.
 
@@ -245,19 +242,19 @@ $ git push
 
 Acá tenemos dos opciones, usar la CLI de Heroku o usar la interfaz web (el dashboard) que aparece cuando nos logeamos en la web de Heroku. Hasta el momento la única manera que conozco de linkear el repo de GitHub con Heroku es en la interfaz web así que vamos a https://heroku.com, nos logeamos y le damos al boton "new" en la esquina superior derecha para crear una app.
 
-![Heroku new app](heroku-new-app.png)
+![Heroku new app](img/heroku-new-app.png)
 
 Elegimos un nombre y le damos al botón de crear app.
 
-![Heroku new app](heroku-new-app-2.png)
+![Heroku new app](img/heroku-new-app-2.png)
 
 ## Deploy automático desde GitHub
 
 Nos aparece un panel de control de la nueva app. En la pestaña de "Deploy", en la sección "Deployment method" elegimos GitHub y conectamos nuestra cuenta de GitHub a Heroku.
 
-![Heroku conectar GitHub](heroku-github-sync.png)
+![Heroku conectar GitHub](img/heroku-github-sync.png)
 
-Luego activamos los deploys automáticos desde GitHub y hacemos un deploy manual. Listo, la app está online. Usen el botón de "View" para ver como quedó.
+Luego activamos los deploys automáticos desde GitHub y hacemos un deploy manual. Listo, la app está online. Usen el botón de "View" para ver como quedó. O en el navegador ponemos https://express-hello-world-1729.herokuapp.com (reemplazar por el nombre de su app).
 
 ![Heroku deploys](heroku-deploys.png)
 
@@ -339,7 +336,7 @@ En un par de minutos se actualiza la app en Heroku y listo, podemos ver los camb
 
 ## Pero no necesito todo esto para poner algo de HTML en la web
 
-Más vale que no, les muestro una manera más fácil y rápida pero mejor lo leen en otro README. En este repo https://github.com/santiagotrini/hello-github-pages les muestro como poner online un sitio estático de una manera más fácil y rápida.
+Más vale que no, les muestro una manera más fácil y rápida pero mejor lo leen en otro README. En este repo https://github.com/santiagotrini/hello-gh-pages les muestro como poner online un sitio estático de una manera más fácil y rápida.
 
 Heroku está pensado para hostear todo tipo de aplicaciones web, GitHub Pages es una manera rápida de hostear sitios estáticos, mucho más limitados.
 
